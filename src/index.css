@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500&display=swap');
+@import 'tailwindcss';
+
+@theme {
+  --color-surface-base: #FFFFFF;
+  --color-surface-card: #F8FAFC;
+  --color-text-primary: #0F172A;
+  --color-text-secondary: #334155;
+  --color-brand-primary: #1E3A8A;
+  --color-brand-hover: #172554;
+  --color-border-strong: #475569;
+  --color-focus-ring: #0284C7;
+
+  --font-sans: 'DM Sans', ui-sans-serif, system-ui, sans-serif;
+  --font-mono: 'JetBrains Mono', ui-monospace, monospace;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+*:focus-visible {
+  outline: 2px solid #0284C7;
+  outline-offset: 2px;
+}
