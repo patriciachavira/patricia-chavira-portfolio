@@ -1,4 +1,4 @@
-import { HashRouter, Routes, Route } from 'react-router-dom';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Home from './pages/Home';
 import CaseStudy01 from './pages/CaseStudy01';
 import CaseStudy02 from './pages/CaseStudy02';
@@ -7,7 +7,7 @@ import CaseStudy04 from './pages/CaseStudy04';
 
 export default function App() {
   return (
-    <HashRouter>
+    <BrowserRouter>
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/case-study-1" element={<CaseStudy01 />} />
@@ -16,6 +16,6 @@ export default function App() {
         <Route path="/case-study-4" element={<CaseStudy04 />} />
         <Route path="*" element={<Home />} />
       </Routes>
-    </HashRouter>
+    </BrowserRouter>
   );
 }
