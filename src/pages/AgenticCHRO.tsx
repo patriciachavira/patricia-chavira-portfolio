@@ -1,3 +1,5 @@
+import React from "react";
+
 export default function AgenticCHRO() {
   return (
     <div className="min-h-screen bg-white text-gray-900 font-sans pb-24">
