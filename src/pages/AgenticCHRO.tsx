@@ -1,5 +1,3 @@
-import React from "react";
-
 export default function AgenticCHRO() {
   return (
     <div className="min-h-screen bg-white text-gray-900 font-sans pb-24">
@@ -132,7 +130,7 @@ export default function AgenticCHRO() {
           </div>
         </div>
 
- {/* Case Study Navigation Footer */}
+        {/* Case Study Navigation Footer */}
         <div className="pt-16 border-t border-gray-100 flex justify-between items-center text-xs font-bold tracking-widest uppercase text-gray-900">
           <a href="/" className="hover:text-blue-900 transition-colors">
             ← BACK TO ALL PROJECTS
@@ -147,7 +145,7 @@ export default function AgenticCHRO() {
       <footer className="max-w-5xl mx-auto px-6 pt-20 border-t border-gray-100 mt-20 flex flex-col sm:flex-row justify-between items-center text-xs text-gray-500 gap-4">
         <div>
           <div className="font-bold text-gray-900 mb-1">Patricia Chavira</div>
-          <div>© {new Date().getFullYear()} · Guadalajara, MX · Product Designer</div>
+          <div>© 2026 · Guadalajara, MX · Product Designer</div>
         </div>
         <div className="flex gap-6 items-center">
           <a href="/" className="hover:text-gray-900 transition-colors">Work</a>
@@ -156,3 +154,6 @@ export default function AgenticCHRO() {
           <a href="#" className="hover:text-gray-900 transition-colors">↑ Top</a>
         </div>
       </footer>
+    </div>
+  );
+}
