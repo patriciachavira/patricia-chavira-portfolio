@@ -131,12 +131,12 @@ export default function AgenticCHRO() {
         </div>
 
         {/* Case Study Navigation Footer */}
-        <div className="pt-16 border-t border-gray-100 flex justify-between items-center text-xs font-bold tracking-widest uppercase text-gray-900">
+       <div className="pt-16 border-t border-gray-100 flex justify-between items-center text-xs font-bold tracking-widest uppercase text-gray-900">
           <a href="/" className="hover:text-blue-900 transition-colors">
             ← BACK TO ALL PROJECTS
           </a>
-          <a href="/case-study/ai-pest-id" className="hover:text-blue-900 transition-colors">
-            NEXT CASE STUDY: AI PEST ID →
+          <a href="/case-study/board-member" className="hover:text-blue-900 transition-colors">
+            NEXT CASE STUDY: BOARD MEMBER →
           </a>
         </div>
       </main>
