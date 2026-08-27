@@ -358,9 +358,14 @@ export default function Home() {
                     <span className="text-[11px] text-gray-500">Connect professionally</span>
                   </div>
                   <div>
-                    <a href="#" className="font-bold text-gray-950 hover:text-blue-900 transition-colors block text-sm">
-                      Resume
-                    </a>
+                    <a 
+  href="https://drive.google.com/file/d/1VaBQW04iQHdKRoYiG40N5gUYx8Zqxd-V/view?usp=sharing" 
+  target="_blank" 
+  rel="noopener noreferrer" 
+  className="font-bold text-gray-950 hover:text-blue-900 transition-colors block text-sm"
+>
+  Resume
+</a>
                     <span className="text-[11px] text-gray-500">PDF · Updated 2026</span>
                   </div>
                 </div>
