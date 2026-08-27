@@ -132,25 +132,27 @@ export default function AgenticCHRO() {
           </div>
         </div>
 
-        {/* Case Study Navigation Footer */}
-        <div className="pt-16 border-t border-gray-100 flex flex-col sm:flex-row justify-between items-center gap-6">
-          <a href="/" className="text-sm font-semibold text-gray-600 hover:text-gray-950 transition-colors">
-            ← Back to All Projects
+ {/* Case Study Navigation Footer */}
+        <div className="pt-16 border-t border-gray-100 flex justify-between items-center text-xs font-bold tracking-widest uppercase text-gray-900">
+          <a href="/" className="hover:text-blue-900 transition-colors">
+            ← BACK TO ALL PROJECTS
           </a>
-          <a href="/case-study/ai-pest-id" className="px-6 py-3 rounded-full bg-gray-950 text-white text-sm font-semibold hover:bg-blue-900 transition-colors">
-            Next Case Study: AI Pest ID →
+          <a href="/case-study/ai-pest-id" className="hover:text-blue-900 transition-colors">
+            NEXT CASE STUDY: AI PEST ID →
           </a>
         </div>
       </main>
 
       {/* Global Footer */}
       <footer className="max-w-5xl mx-auto px-6 pt-20 border-t border-gray-100 mt-20 flex flex-col sm:flex-row justify-between items-center text-xs text-gray-500 gap-4">
-        <div>© {new Date().getFullYear()} Patricia Flores. Product & UX/UI Designer.</div>
-        <div className="flex gap-6">
-          <a href="https://linkedin.com" target="_blank" rel="noreferrer" className="hover:text-gray-900 transition-colors">LinkedIn</a>
-          <a href="mailto:contact@example.com" className="hover:text-gray-900 transition-colors">Email</a>
+        <div>
+          <div className="font-bold text-gray-900 mb-1">Patricia Chavira</div>
+          <div>© {new Date().getFullYear()} · Guadalajara, MX · Product Designer</div>
+        </div>
+        <div className="flex gap-6 items-center">
+          <a href="/" className="hover:text-gray-900 transition-colors">Work</a>
+          <a href="/#about" className="hover:text-gray-900 transition-colors">About</a>
+          <a href="/#contact" className="hover:text-gray-900 transition-colors">Contact</a>
+          <a href="#" className="hover:text-gray-900 transition-colors">↑ Top</a>
         </div>
       </footer>
-    </div>
-  );
-}
