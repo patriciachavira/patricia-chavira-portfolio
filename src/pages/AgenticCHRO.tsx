@@ -102,50 +102,48 @@ export default function AgenticCHRO() {
   </div>
 </div>
 
-            {/* Screen 2 */}
-            <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
-              <div className="lg:col-span-6 order-2 lg:order-1 rounded-2xl border border-gray-200/60 bg-white shadow-sm overflow-hidden p-2">
-                <img src="/images/agentic-chro/screen-2.png" alt="Screen 2" className="w-full h-auto object-cover rounded-xl" />
-              </div>
-              <div className="lg:col-span-6 order-1 lg:order-2 space-y-4">
-                <h3 className="text-xl font-bold text-gray-950">Screen 2: Agent Architecture & Trade-off Selection (Canvas & Option Matrix)</h3>
-                <p className="text-sm text-gray-700 leading-relaxed">
-                  <strong>UI Focus:</strong> Card-based comparison canvas showing distinct process configurations and agent options.<br /><br />
-                  <strong>Agentic Logic:</strong> Maps candidate agent workflows to selected KPIs. The engine performs an automated **Conflict Check** to flag functional overlaps or resource collisions between agents.<br /><br />
-                  <strong>UX Intent:</strong> Allows CHROs to visually compare agent stacks side-by-side, evaluating tradeoffs (speed, compliance, manual oversight needed) before committing.
-                </p>
-              </div>
-            </div>
+ {/* Screen 2 */}
+        <div className="flex flex-col space-y-6">
+          <div className="space-y-4">
+            <h3 className="text-xl font-bold text-gray-950">Screen 2: Agent Architecture & Trade-off Selection (Canvas & Option Matrix)</h3>
+            <p className="text-sm text-gray-700 leading-relaxed">
+              <strong>UI Focus:</strong> Card-based comparison canvas showing distinct process configurations and agent options.<br /><br />
+              <strong>Agentic Logic:</strong> Maps candidate process flows to targeted KPIs. The platform evaluates cost, velocity, and risk parameters across options before human sign-off.<br /><br />
+              <strong>UX Intent:</strong> Direct comparison mode allows decision-makers to weigh execution risks against speed without needing deep technical expertise.
+            </p>
+          </div>
+          <div className="w-full rounded-2xl border border-gray-200/80 bg-white shadow-md overflow-hidden p-2">
+            <img src="/images/agentic-chro/screen-2.png" alt="Screen 2" className="w-full h-auto object-cover rounded-xl" />
+          </div>
+        </div>
 
-            {/* Screen 3 */}
-            <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
-              <div className="lg:col-span-6 space-y-4">
-                <h3 className="text-xl font-bold text-gray-950">Screen 3: Simulation, Refinement & Deployment (Pre-Launch Dashboard)</h3>
-                <p className="text-sm text-gray-700 leading-relaxed">
-                  <strong>UI Focus:</strong> Multi-panel interface featuring process metrics and an integrated <em>Jarvis Assistant side panel</em>.<br /><br />
-                  <strong>Agentic Logic:</strong> Maps candidate agent workflows to selected KPIs. The engine performs an automated **Conflict Check** to flag functional overlaps or resource collisions between agents.<br /><br />
-                  <strong>UX Intent:</strong> Allows CHROs to visually compare agent stacks side-by-side, evaluating tradeoffs (speed, compliance, manual oversight needed) before committing.
-                </p>
-              </div>
-              <div className="lg:col-span-6 rounded-2xl border border-gray-200/60 bg-white shadow-sm overflow-hidden p-2">
-                <img src="/images/agentic-chro/screen-3.png" alt="Screen 3" className="w-full h-auto object-cover rounded-xl" />
-              </div>
-            </div>
+        {/* Screen 3 */}
+        <div className="flex flex-col space-y-6">
+          <div className="space-y-4">
+            <h3 className="text-xl font-bold text-gray-950">Screen 3: Human-in-the-Loop Approval & Policy Governance</h3>
+            <p className="text-sm text-gray-700 leading-relaxed">
+              <strong>UI Focus:</strong> Explicit action panel highlighting high-stakes governance gates.<br /><br />
+              <strong>Agentic Logic:</strong> Requests executive authorization prior to deploying automated workflows. Enforces policy constraints while presenting full visibility into action impacts.<br /><br />
+              <strong>UX Intent:</strong> Prevents unauthorized agent autonomous behavior and builds institutional trust through transparent governance controls.
+            </p>
+          </div>
+          <div className="w-full rounded-2xl border border-gray-200/80 bg-white shadow-md overflow-hidden p-2">
+            <img src="/images/agentic-chro/screen-3.png" alt="Screen 3" className="w-full h-auto object-cover rounded-xl" />
+          </div>
+        </div>
 
-            {/* Screen 4 */}
-            <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
-              <div className="lg:col-span-6 order-2 lg:order-1 rounded-2xl border border-gray-200/60 bg-white shadow-sm overflow-hidden p-2">
-                <img src="/images/agentic-chro/screen-4.png" alt="Screen 4" className="w-full h-auto object-cover rounded-xl" />
-              </div>
-              <div className="lg:col-span-6 order-1 lg:order-2 space-y-4">
-                <h3 className="text-xl font-bold text-gray-950">Screen 4: Executive KPI Command Center (Live Telemetry & Feedback Loop)</h3>
-                <p className="text-sm text-gray-700 leading-relaxed">
-                  <strong>UI Focus:</strong> High-density executive analytics dashboard tracking real-time health scores, drift metrics, and trendlines.<br /><br />
-                  <strong>Agentic Logic:</strong> Continuously monitors agent health over 30-day operational cycles. If performance drifts outside established thresholds, Jarvis automatically triggers alerting protocols.<br /><br />
-                  <strong>UX Intent:</strong> Establishes a closed-loop system. When performance drifts, executives can prompt Jarvis directly from the dashboard to auto-generate process optimizations without restarting onboarding from scratch.
-                </p>
-              </div>
-            </div>
+        {/* Screen 4 */}
+        <div className="flex flex-col space-y-6">
+          <div className="space-y-4">
+            <h3 className="text-xl font-bold text-gray-950">Screen 4: Executive KPI Command Center (Live Telemetry)</h3>
+            <p className="text-sm text-gray-700 leading-relaxed">
+              <strong>UI Focus:</strong> High-density executive analytics dashboard tracking real-time health metrics.<br /><br />
+              <strong>Agentic Logic:</strong> Continuously monitors agent health over 30-day operational cycles, logging execution accuracy and policy compliance.<br /><br />
+              <strong>UX Intent:</strong> Establishes a closed-loop system. When performance drifts, executives receive instant notifications to re-configure or intervene.
+            </p>
+          </div>
+          <div className="w-full rounded-2xl border border-gray-200/80 bg-white shadow-md overflow-hidden p-2">
+            <img src="/images/agentic-chro/screen-4.png" alt="Screen 4" className="w-full h-auto object-cover rounded-xl" />
           </div>
         </div>
       
