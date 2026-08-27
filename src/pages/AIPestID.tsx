@@ -266,7 +266,7 @@ export default function AIPestIdTool() {
             {/* Desktop & Mobile Screens Showcase Image */}
             <div className="w-full flex justify-center pt-4">
               <img 
-                src="/images/new-pest-ui-showcase.png"" 
+                src="/images/new-pest-ui-showcase.png" 
                 alt="Desktop and Mobile Screens Showcase" 
                 className="w-full h-auto object-contain"
               />
