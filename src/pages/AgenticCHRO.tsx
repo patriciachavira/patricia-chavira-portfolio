@@ -135,7 +135,7 @@ export default function AgenticCHRO() {
           <a href="/" className="hover:text-blue-900 transition-colors">
             ← BACK TO ALL PROJECTS
           </a>
-          <a href="/case-study/board-member" className="hover:text-blue-900 transition-colors">
+          <a href="/case-study/boardMember" className="hover:text-blue-900 transition-colors">
             NEXT CASE STUDY: BOARD MEMBER →
           </a>
         </div>
