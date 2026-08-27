@@ -1,13 +1,15 @@
+import { Link } from "react-router-dom";
+
 export default function AgenticCHRO() {
   return (
     <div className="min-h-screen bg-white text-gray-900 font-sans pb-24">
       {/* Top Navigation */}
       <header className="max-w-5xl mx-auto w-full px-6 pt-12 pb-8 flex justify-between items-center text-xs tracking-widest uppercase font-semibold text-gray-900 border-b border-gray-100">
-        <a href="/" className="font-extrabold text-sm tracking-normal hover:text-blue-900 transition-colors">← Back to Portfolio</a>
+        <Link to="/" className="font-extrabold text-sm tracking-normal hover:text-blue-900 transition-colors">← Back to Portfolio</Link>
         <div className="flex items-center gap-6 text-gray-700">
-          <a href="/" className="hover:text-gray-950 transition-colors">Work</a>
-          <a href="/#about" className="hover:text-gray-950 transition-colors">About</a>
-          <a href="/#contact" className="hover:text-gray-950 transition-colors">Contact</a>
+          <Link to="/" className="hover:text-gray-950 transition-colors">Work</Link>
+          <Link to="/#about" className="hover:text-gray-950 transition-colors">About</Link>
+          <Link to="/#contact" className="hover:text-gray-950 transition-colors">Contact</Link>
         </div>
       </header>
 
@@ -98,7 +100,7 @@ export default function AgenticCHRO() {
         </div>
 
         {/* Outcomes & Business Impact Section */}
-        <div className="space-y-12 pt-16 border-t border-gray-100 mb-20">
+        <div className="space-y-12 pt-16 border-t border-gray-100">
           <div className="space-y-8">
             <h2 className="text-2xl sm:text-3xl font-extrabold text-gray-950 tracking-tight">
               OUTCOMES & BUSINESS IMPACT
@@ -129,7 +131,26 @@ export default function AgenticCHRO() {
             </ul>
           </div>
         </div>
+
+        {/* Case Study Navigation Footer */}
+        <div className="pt-16 border-t border-gray-100 flex flex-col sm:flex-row justify-between items-center gap-6">
+          <Link to="/" className="text-sm font-semibold text-gray-600 hover:text-gray-950 transition-colors">
+            ← Back to All Projects
+          </Link>
+          <Link to="/case-study/ai-pest-id" className="px-6 py-3 rounded-full bg-gray-950 text-white text-sm font-semibold hover:bg-blue-900 transition-colors">
+            Next Case Study: AI Pest ID →
+          </Link>
+        </div>
       </main>
+
+      {/* Global Footer */}
+      <footer className="max-w-5xl mx-auto px-6 pt-20 border-t border-gray-100 mt-20 flex flex-col sm:flex-row justify-between items-center text-xs text-gray-500 gap-4">
+        <div>© {new Date().getFullYear()} Patricia Flores. Product & UX/UI Designer.</div>
+        <div className="flex gap-6">
+          <a href="https://linkedin.com" target="_blank" rel="noreferrer" className="hover:text-gray-900 transition-colors">LinkedIn</a>
+          <a href="mailto:contact@example.com" className="hover:text-gray-900 transition-colors">Email</a>
+        </div>
+      </footer>
     </div>
   );
 }
