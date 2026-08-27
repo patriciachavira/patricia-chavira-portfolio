@@ -88,19 +88,19 @@ export default function AgenticCHRO() {
 
           <div className="space-y-16">
             {/* Screen 1 */}
-            <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
-              <div className="lg:col-span-6 space-y-4">
-                <h3 className="text-xl font-bold text-gray-950">Screen 1: Context Definition & KPI Extraction (Onboarding Intake)</h3>
-                <p className="text-sm text-gray-700 leading-relaxed">
-                  <strong>UI Focus:</strong> Structured vertical form coupled with natural language input.<br /><br />
-                  <strong>Agentic Logic:</strong> Captures role context (CHRO), strategic goals, and operational pain points. Jarvis AI executes background data extraction, automatically tagging relevant organizational KPIs and pulling live baseline data.<br /><br />
-                  <strong>UX Intent:</strong> Minimizes manual entry by letting executives express intent in plain text while AI structures the operational metadata.
-                </p>
-              </div>
-              <div className="lg:col-span-6 rounded-2xl border border-gray-200/60 bg-white shadow-sm overflow-hidden p-2">
-                <img src="/images/agentic-chro/screen-1.png" alt="Screen 1" className="w-full h-auto object-cover rounded-xl" />
-              </div>
-            </div>
+<div className="flex flex-col space-y-6">
+  <div className="space-y-4">
+    <h3 className="text-xl font-bold text-gray-950">Screen 1: Context Definition & KPI Extraction (Onboarding Intake)</h3>
+    <p className="text-sm text-gray-700 leading-relaxed">
+      <strong>UI Focus:</strong> Structured vertical form coupled with natural language input.<br /><br />
+      <strong>Agentic Logic:</strong> Captures role context (CHRO), strategic goals, and operational pain points. Jarvis AI executes background data extraction, automatically tagging relevant organizational KPIs and pulling live baseline data.<br /><br />
+      <strong>UX Intent:</strong> Minimizes manual entry by letting executives express intent in plain text while AI structures the operational metadata.
+    </p>
+  </div>
+  <div className="w-full rounded-2xl border border-gray-200/80 bg-white shadow-md overflow-hidden p-2">
+    <img src="/images/agentic-chro/screen-1.png" alt="Screen 1" className="w-full h-auto object-cover rounded-xl" />
+  </div>
+</div>
 
             {/* Screen 2 */}
             <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
