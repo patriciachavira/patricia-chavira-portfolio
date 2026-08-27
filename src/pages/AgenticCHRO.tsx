@@ -98,6 +98,39 @@ export default function AgenticCHRO() {
             </div>
           </div>
         </div>
+
+        {/* Outcomes & Business Impact Section */}
+        <div className="space-y-12 pt-16 border-t border-gray-100 mb-20">
+          <div className="space-y-8">
+            <h2 className="text-2xl sm:text-3xl font-extrabold text-gray-950 tracking-tight">
+              OUTCOMES & BUSINESS IMPACT
+            </h2>
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+              <div className="p-8 bg-gray-50/60 rounded-2xl border border-gray-100">
+                <div className="text-4xl sm:text-5xl font-extrabold text-gray-950 mb-2">65%</div>
+                <div className="text-sm text-gray-700 font-medium">Reduction in Manual Tracking Hours</div>
+              </div>
+              <div className="p-8 bg-gray-50/60 rounded-2xl border border-gray-100">
+                <div className="text-4xl sm:text-5xl font-extrabold text-gray-950 mb-2">100%</div>
+                <div className="text-sm text-gray-700 font-medium">Human-In-The-Loop Compliance Auditability</div>
+              </div>
+              <div className="p-8 bg-gray-50/60 rounded-2xl border border-gray-100">
+                <div className="text-4xl sm:text-5xl font-extrabold text-gray-950 mb-2">4x</div>
+                <div className="text-sm text-gray-700 font-medium">Faster Executive Decision Cycle Velocity</div>
+              </div>
+            </div>
+          </div>
+
+          {/* Key Strategic Takeaways */}
+          <div className="space-y-6 pt-8">
+            <h3 className="text-xl font-bold text-gray-950">Key Strategic Takeaways</h3>
+            <ul className="space-y-4 text-sm text-gray-700 leading-relaxed list-disc pl-5">
+              <li><strong>Progressive Disclosure Builds Trust:</strong> Executive AI adoption hinges on gradual exposure to autonomous mechanics rather than black-box automation.</li>
+              <li><strong>Governance as UX Feature:</strong> Making compliance constraints visual and actionable turns security control into an operational asset.</li>
+              <li><strong>Closed-Loop Observability:</strong> Combining real-time telemetry with agent failure alerts maintains human confidence across long-term execution cycles.</li>
+            </ul>
+          </div>
+        </div>
       </main>
     </div>
   );
