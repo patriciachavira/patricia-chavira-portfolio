@@ -6,12 +6,12 @@ export default function AgenticCHRO() {
       {/* Top Navigation */}
       <header className="sticky top-0 z-50 max-w-5xl mx-auto w-full px-8 sm:px-16 py-6 flex justify-between items-center text-xs tracking-widest uppercase font-semibold text-gray-900 bg-white/80 backdrop-blur-md border-b border-gray-100 transition-all">
         <Link to="/" className="font-extrabold text-sm tracking-normal hover:text-blue-900 transition-colors">
-          ← Back to Portfolio
+          ← BACK TO PORTFOLIO
         </Link>
         <div className="flex items-center gap-6 text-gray-700">
-          <a href="/" className="hover:text-gray-950 transition-colors">Work</a>
-          <a href="/#about" className="hover:text-gray-950 transition-colors">About</a>
-          <a href="/#contact" className="hover:text-gray-950 transition-colors">Contact</a>
+          <a href="/" className="hover:text-gray-950 transition-colors">WORK</a>
+          <a href="/#about" className="hover:text-gray-950 transition-colors">ABOUT</a>
+          <a href="/#contact" className="hover:text-gray-950 transition-colors">CONTACT</a>
         </div>
       </header>
 
@@ -30,6 +30,35 @@ export default function AgenticCHRO() {
           <p className="text-lg text-gray-700 leading-relaxed max-w-4xl">
             Transformed an enterprise-wide onboarding bottleneck across 4+ disconnected tools into a single, high-density decision dashboard powered by multi-agent AI.
           </p>
+        </div>
+
+        {/* The Context & Moment of Conflict */}
+        <div className="space-y-6 pt-12 border-t border-gray-100 text-gray-800 leading-relaxed max-w-4xl">
+          <p>
+            <strong>The Context:</strong> Onboarding executive talent involved siloed coordination between HR, IT, Compliance, and Department Leads, leading to administrative delays and zero real-time visibility.
+          </p>
+          <p>
+            <strong>The Moment of Conflict:</strong> Full automation created executive distrust and compliance risks. HR leaders suffered from tool fatigue; they wanted AI speed but demanded uncompromised Human-In-The-Loop (HITL) authority on sensitive hiring and compensation decisions.
+          </p>
+        </div>
+
+        {/* System Architecture, Wireframing & Prototyping */}
+        <div className="space-y-8 pt-12 border-t border-gray-100">
+          <h2 className="text-2xl sm:text-3xl font-extrabold text-gray-950 tracking-tight">
+            System Architecture, Wireframing & Prototyping (Rising Action)
+          </h2>
+          <p className="text-gray-700 leading-relaxed max-w-4xl">
+            Given the aggressive timeline, I leveraged <strong>Figma Make</strong> to rapidly translate architectural mental models into dynamic, functional wireframes. Through rapid prototyping, the theoretical logic flow evolved into a <strong>4-step progressive disclosure architecture</strong>—spanning Executive Role Setup, Agent Canvas Orchestration, Simulation & Validation Gates, and Live KPI Telemetry—deliberately structured to prevent cognitive overload while giving executive CHROs full oversight over autonomous background agents with mandatory Human-In-The-Loop (HITL) override controls.
+          </p>
+          
+          {/* Architecture Diagram */}
+          <div className="w-full rounded-2xl border border-gray-200/80 bg-white shadow-md overflow-hidden p-6 flex justify-center">
+            <img 
+              src="/images/agentic-chro/system-architecture.png" 
+              alt="System Logic and Decision Gates Architecture Diagram" 
+              className="w-full max-w-3xl h-auto object-contain"
+            />
+          </div>
         </div>
 
         {/* Prototyping The Experience Section */}
@@ -162,15 +191,15 @@ export default function AgenticCHRO() {
           <div>© 2026 · Guadalajara, MX · Product Designer</div>
         </div>
         <div className="flex gap-6 items-center">
-          <a href="/" className="hover:text-gray-900 transition-colors">Work</a>
-          <a href="/#about" className="hover:text-gray-900 transition-colors">About</a>
-          <a href="/#contact" className="hover:text-gray-900 transition-colors">Contact</a>
+          <a href="/" className="hover:text-gray-900 transition-colors">WORK</a>
+          <a href="/#about" className="hover:text-gray-900 transition-colors">ABOUT</a>
+          <a href="/#contact" className="hover:text-gray-900 transition-colors">CONTACT</a>
           <button 
             onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
             className="hover:text-gray-900 transition-colors cursor-pointer"
             aria-label="Scroll back to top of page"
           >
-            ↑ Top
+            ↑ TOP
           </button>
         </div>
       </footer>
