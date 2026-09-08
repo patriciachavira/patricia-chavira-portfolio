@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 export default function AgenticCHRO() {
   return (
     <div className="min-h-screen bg-white text-gray-900 font-sans pb-24">
@@ -130,14 +131,14 @@ export default function AgenticCHRO() {
           </div>
         </div>
 
-        {/* Case Study Navigation Footer */}
         <div className="pt-16 border-t border-gray-100 flex justify-between items-center text-xs font-bold tracking-widest uppercase text-gray-900">
-          <a href="/" className="hover:text-blue-900 transition-colors">
-            ← BACK TO ALL PROJECTS
-          </a>
-          <Link to="/case-study/board-member" className="hover:text-blue-900 transition-colors">
-  NEXT CASE STUDY: BOARD MEMBER →
-</Link>
+  <Link to="/" className="hover:text-blue-900 transition-colors">
+    ← BACK TO ALL PROJECTS
+  </Link>
+  <Link to="/case-study/board-member" className="hover:text-blue-900 transition-colors">
+    NEXT CASE STUDY: BOARD MEMBER →
+  </Link>
+</div>
         </div>
       </main>
 
