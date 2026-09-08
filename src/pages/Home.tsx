@@ -284,7 +284,7 @@ export default function Home() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
             <div className="p-8 bg-gray-50 rounded-2xl border border-gray-100 flex flex-col justify-between space-y-6">
               <p className="text-sm text-gray-700 leading-relaxed italic">
-                &ldquo;In the years I collaborated with Patricia, she proved herself to be a kind and collaborative leader and creative professional. Her wide array of skills make her a valuable asset in any team she is a part of. Pats can hold her own in client-facing engagement and stakeholder conversation. A team player through and through.&rdquo;
+                &ldquo;In the years I collaborated with Patricia, she proved herself to be a kind and collaborative leader and creative professional. Her wide array of skills make her a valuable asset in any team she is a part of. Pats can hold her own in client-facing engagements and stakeholder conversation. A team player through and through.&rdquo;
               </p>
               <div>
                 <div className="font-bold text-gray-950 text-sm">Lex Soto</div>
