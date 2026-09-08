@@ -4,7 +4,7 @@ export default function AgenticCHRO() {
     <div className="min-h-screen bg-white text-gray-900 font-sans pb-24">
       {/* Top Navigation */}
       <header className="sticky top-0 z-50 max-w-5xl mx-auto w-full px-8 sm:px-16 py-6 flex justify-between items-center text-xs tracking-widest uppercase font-semibold text-gray-900 bg-white/80 backdrop-blur-md border-b border-gray-100 transition-all">
-       <a href="/" className="font-extrabold text-sm tracking-normal hover:text-blue-900 transition-colors">← Back to Portfolio</a>
+      <Link to="/" className="font-extrabold text-sm tracking-normal hover:text-blue-900 transition-colors">← Back to Portfolio</Link>
         <div className="flex items-center gap-6 text-gray-700">
           <a href="/" className="hover:text-gray-950 transition-colors">Work</a>
           <a href="/#about" className="hover:text-gray-950 transition-colors">About</a>
