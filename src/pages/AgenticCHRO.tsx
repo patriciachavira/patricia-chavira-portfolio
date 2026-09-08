@@ -57,7 +57,6 @@ export default function AgenticCHRO() {
   src="/images/agentic-chro/flow.png" 
   alt="System Logic and Decision Gates Architecture Diagram" 
   className="w-full max-w-3xl h-auto object-contain"
-/>
             />
           </div>
         </div>
