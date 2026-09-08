@@ -1,4 +1,5 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import ScrollToTop from "./ScrollToTop";
 import Home from './pages/Home';
 import AgenticCHRO from './pages/AgenticCHRO';
 import BoardMember from './pages/BoardMember';
@@ -9,6 +10,7 @@ import AIPestIdTool from './pages/AIPestIdTool';
 export default function App() {
   return (
     <Router>
+      <ScrollToTop />
       <Routes>
         <Route path="/" element={<Home />} />
 
