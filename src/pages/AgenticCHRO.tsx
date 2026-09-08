@@ -53,10 +53,11 @@ export default function AgenticCHRO() {
           
           {/* Architecture Diagram */}
           <div className="w-full rounded-2xl border border-gray-200/80 bg-white shadow-md overflow-hidden p-6 flex justify-center">
-            <img 
-              src="/images/agentic-chro/system-architecture.png" 
-              alt="System Logic and Decision Gates Architecture Diagram" 
-              className="w-full max-w-3xl h-auto object-contain"
+           <img 
+  src="/images/agentic-chro/flow.png" 
+  alt="System Logic and Decision Gates Architecture Diagram" 
+  className="w-full max-w-3xl h-auto object-contain"
+/>
             />
           </div>
         </div>
