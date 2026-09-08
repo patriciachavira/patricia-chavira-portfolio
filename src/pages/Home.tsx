@@ -8,7 +8,7 @@ export default function Home() {
   return (
     <div className="min-h-screen bg-white text-gray-900 font-sans pb-12">
       {/* Top Navigation */}
-      <header className="max-w-5xl mx-auto w-full px-8 sm:px-16 pt-12 pb-8 flex justify-between items-center text-xs tracking-widest uppercase font-semibold text-gray-900 border-b border-gray-100 mb-12">
+   <header className="sticky top-0 z-50 max-w-5xl mx-auto w-full px-8 sm:px-16 py-6 flex justify-between items-center text-xs tracking-widest uppercase font-semibold text-gray-900 bg-white/80 backdrop-blur-md border-b border-gray-100 transition-all">
         <div className="flex items-center gap-8">
           <a href="/" className="font-extrabold text-sm tracking-normal">PATRICIA CHAVIRA</a>
         </div>
@@ -385,17 +385,25 @@ export default function Home() {
       </main>
 
       {/* Footer */}
-      <footer className="max-w-5xl mx-auto w-full px-8 sm:px-16 pt-16 border-t border-gray-100 text-xs text-gray-600 flex justify-between items-center mt-24">
-        <div>
-          <div className="font-bold text-gray-950 text-sm mb-1">Patricia Chavira</div>
-          <div className="text-gray-500">© 2026 · Guadalajara, MX · Product Designer</div>
-        </div>
-        <div className="flex gap-6 font-medium">
-          <a href="#work" className="hover:text-gray-950 transition-colors">Work</a>
-          <a href="#about" className="hover:text-gray-950 transition-colors">About</a>
-          <a href="#contact" className="hover:text-gray-950 transition-colors">Contact</a>
-        </div>
-      </footer>
+     <footer className="max-w-5xl mx-auto w-full px-8 sm:px-16 pt-16 pb-8 border-t border-gray-100 text-xs text-gray-600 flex justify-between items-center mt-24">
+  <div>
+    <div className="font-bold text-gray-950 text-sm mb-1">Patricia Chavira</div>
+    <div className="text-gray-500">© 2026 · Guadalajara, MX · Product Designer</div>
+  </div>
+  
+  <div className="flex items-center gap-6 font-medium">
+    <a href="#work" className="hover:text-gray-950 transition-colors">Work</a>
+    <a href="#about" className="hover:text-gray-950 transition-colors">About</a>
+    <a href="#contact" className="hover:text-gray-950 transition-colors">Contact</a>
+    <button 
+      onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
+      className="hover:text-gray-950 transition-colors cursor-pointer flex items-center gap-1 text-gray-500"
+      aria-label="Scroll back to top of page"
+    >
+      <span>↑</span> Back to top
+    </button>
+  </div>
+</footer>
     </div>
   );
 }
