@@ -1,10 +1,13 @@
 import { Link } from 'react-router-dom';
+
 export default function AgenticCHRO() {
   return (
     <div className="min-h-screen bg-white text-gray-900 font-sans pb-24">
       {/* Top Navigation */}
       <header className="sticky top-0 z-50 max-w-5xl mx-auto w-full px-8 sm:px-16 py-6 flex justify-between items-center text-xs tracking-widest uppercase font-semibold text-gray-900 bg-white/80 backdrop-blur-md border-b border-gray-100 transition-all">
-     <Link to="/" className="font-extrabold text-sm tracking-normal hover:text-blue-900 transition-colors">← Back to Portfolio</Link>
+        <Link to="/" className="font-extrabold text-sm tracking-normal hover:text-blue-900 transition-colors">
+          ← Back to Portfolio
+        </Link>
         <div className="flex items-center gap-6 text-gray-700">
           <a href="/" className="hover:text-gray-950 transition-colors">Work</a>
           <a href="/#about" className="hover:text-gray-950 transition-colors">About</a>
@@ -15,7 +18,9 @@ export default function AgenticCHRO() {
       <main className="max-w-5xl mx-auto px-6 space-y-12 mt-12">
         {/* Hero Section */}
         <div className="space-y-6">
-          <div className="text-xs font-bold tracking-widest text-gray-400 uppercase">01 ENTERPRISE AI & WORKFLOW OPTIMIZATION</div>
+          <div className="text-xs font-bold tracking-widest text-gray-400 uppercase">
+            01 ENTERPRISE AI & WORKFLOW OPTIMIZATION
+          </div>
           <h1 className="text-4xl sm:text-6xl font-extrabold text-gray-950 tracking-tight leading-tight">
             Agentic CHRO Onboarding Dashboard
           </h1>
@@ -39,7 +44,9 @@ export default function AgenticCHRO() {
             {/* Screen 1 */}
             <div className="flex flex-col space-y-6">
               <div className="space-y-4">
-                <h3 className="text-xl font-bold text-gray-950">Screen 1: Context Definition & KPI Extraction (Onboarding Intake)</h3>
+                <h3 className="text-xl font-bold text-gray-950">
+                  Screen 1: Context Definition & KPI Extraction (Onboarding Intake)
+                </h3>
                 <p className="text-sm text-gray-700 leading-relaxed">
                   <strong>UI Focus:</strong> Structured vertical form coupled with natural language input.<br /><br />
                   <strong>Agentic Logic:</strong> Captures role context (CHRO), strategic goals, and operational pain points. Jarvis AI executes background data extraction, automatically tagging relevant organizational KPIs and pulling live baseline data.<br /><br />
@@ -54,7 +61,9 @@ export default function AgenticCHRO() {
             {/* Screen 2 */}
             <div className="flex flex-col space-y-6">
               <div className="space-y-4">
-                <h3 className="text-xl font-bold text-gray-950">Screen 2: Agent Architecture & Trade-off Selection (Canvas & Option Matrix)</h3>
+                <h3 className="text-xl font-bold text-gray-950">
+                  Screen 2: Agent Architecture & Trade-off Selection (Canvas & Option Matrix)
+                </h3>
                 <p className="text-sm text-gray-700 leading-relaxed">
                   <strong>UI Focus:</strong> Card-based comparison canvas showing distinct process configurations and agent options.<br /><br />
                   <strong>Agentic Logic:</strong> Maps candidate process flows to targeted KPIs. The platform evaluates cost, velocity, and risk parameters across options before human sign-off.<br /><br />
@@ -69,7 +78,9 @@ export default function AgenticCHRO() {
             {/* Screen 3 */}
             <div className="flex flex-col space-y-6">
               <div className="space-y-4">
-                <h3 className="text-xl font-bold text-gray-950">Screen 3: Human-in-the-Loop Approval & Policy Governance</h3>
+                <h3 className="text-xl font-bold text-gray-950">
+                  Screen 3: Human-in-the-Loop Approval & Policy Governance
+                </h3>
                 <p className="text-sm text-gray-700 leading-relaxed">
                   <strong>UI Focus:</strong> Explicit action panel highlighting high-stakes governance gates.<br /><br />
                   <strong>Agentic Logic:</strong> Requests executive authorization prior to deploying automated workflows. Enforces policy constraints while presenting full visibility into action impacts.<br /><br />
@@ -84,7 +95,9 @@ export default function AgenticCHRO() {
             {/* Screen 4 */}
             <div className="flex flex-col space-y-6">
               <div className="space-y-4">
-                <h3 className="text-xl font-bold text-gray-950">Screen 4: Executive KPI Command Center (Live Telemetry)</h3>
+                <h3 className="text-xl font-bold text-gray-950">
+                  Screen 4: Executive KPI Command Center (Live Telemetry)
+                </h3>
                 <p className="text-sm text-gray-700 leading-relaxed">
                   <strong>UI Focus:</strong> High-density executive analytics dashboard tracking real-time health metrics.<br /><br />
                   <strong>Agentic Logic:</strong> Continuously monitors agent health over 30-day operational cycles, logging execution accuracy and policy compliance.<br /><br />
@@ -131,14 +144,14 @@ export default function AgenticCHRO() {
           </div>
         </div>
 
+        {/* Case Study Navigation Footer */}
         <div className="pt-16 border-t border-gray-100 flex justify-between items-center text-xs font-bold tracking-widest uppercase text-gray-900">
-  <Link to="/" className="hover:text-blue-900 transition-colors">
-    ← BACK TO ALL PROJECTS
-  </Link>
-  <Link to="/case-study/board-member" className="hover:text-blue-900 transition-colors">
-    NEXT CASE STUDY: BOARD MEMBER →
-  </Link>
-</div>
+          <Link to="/" className="hover:text-blue-900 transition-colors">
+            ← BACK TO ALL PROJECTS
+          </Link>
+          <Link to="/case-study/board-member" className="hover:text-blue-900 transition-colors">
+            NEXT CASE STUDY: BOARD MEMBER →
+          </Link>
         </div>
       </main>
 
@@ -153,12 +166,12 @@ export default function AgenticCHRO() {
           <a href="/#about" className="hover:text-gray-900 transition-colors">About</a>
           <a href="/#contact" className="hover:text-gray-900 transition-colors">Contact</a>
           <button 
-  onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
-  className="hover:text-gray-900 transition-colors cursor-pointer"
-  aria-label="Scroll back to top of page"
->
-  ↑ Top
-</button>
+            onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
+            className="hover:text-gray-900 transition-colors cursor-pointer"
+            aria-label="Scroll back to top of page"
+          >
+            ↑ Top
+          </button>
         </div>
       </footer>
     </div>
