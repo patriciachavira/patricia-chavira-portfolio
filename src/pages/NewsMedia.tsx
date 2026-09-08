@@ -4,7 +4,7 @@ export default function NewsMedia() {
   return (
     <div className="min-h-screen bg-white text-gray-900 flex flex-col justify-between">
       {/* Top Navigation */}
-      <header className="max-w-5xl mx-auto w-full px-8 sm:px-16 pt-12 pb-8 flex justify-between items-center text-xs tracking-widest uppercase font-semibold text-gray-900 border-b border-gray-100 mb-12">
+     <header className="sticky top-0 z-50 max-w-5xl mx-auto w-full px-8 sm:px-16 py-6 flex justify-between items-center text-xs tracking-widest uppercase font-semibold text-gray-900 bg-white/80 backdrop-blur-md border-b border-gray-100 transition-all">
         <a href="/" className="hover:text-gray-500 transition-colors">← BACK TO CASE STUDIES</a>
         <div className="flex items-center gap-8">
           <a href="/" className="font-extrabold text-sm tracking-normal">PATRICIA CHAVIRA</a>
