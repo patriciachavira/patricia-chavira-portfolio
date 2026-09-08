@@ -30,6 +30,30 @@ export default function AgenticCHRO() {
           <p className="text-lg text-gray-700 leading-relaxed max-w-4xl">
             Transformed an enterprise-wide onboarding bottleneck across 4+ disconnected tools into a single, high-density decision dashboard powered by multi-agent AI.
           </p>
+          {/* Metadata Grid */}
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 p-6 bg-gray-50/80 rounded-xl border border-gray-100 text-xs text-gray-700 mt-8">
+          <div className="space-y-1 sm:border-r sm:border-gray-200 sm:pr-4">
+            <div className="font-bold uppercase tracking-wider text-gray-900">Role:</div>
+            <div>Lead Product Designer</div>
+          </div>
+          <div className="space-y-1 lg:border-r lg:border-gray-200 lg:pr-4">
+            <div className="font-bold uppercase tracking-wider text-gray-900">Scope:</div>
+            <div>Enterprise B2B SaaS / HR Tech</div>
+          </div>
+          <div className="space-y-1 sm:border-r sm:border-gray-200 sm:pr-4">
+            <div className="font-bold uppercase tracking-wider text-gray-900">Tools & Timeline:</div>
+            <div>2 Weeks - 2026 | Figma Make, FigJam, Miro, Claude, Gemini, Design System Tokens</div>
+          </div>
+          <div className="space-y-1">
+            <div className="font-bold uppercase tracking-wider text-gray-900">Stakeholders:</div>
+            <div>65% Reduction In Manual Tracking; 100% HITL Compliance</div>
+          </div>
+        </div>
+
+        {/* NDA Disclaimer Banner */}
+        <div className="p-4 bg-gray-50/50 rounded-xl border border-gray-200/60 text-xs text-gray-600 italic text-center mt-4">
+          🔒 <strong>Global Confidentiality & NDA Disclaimer:</strong> To comply with Non-Disclosure Agreements (NDAs), proprietary client names, live customer PII, and sensitive business metrics across these case studies have been sanitized or generalized. All designs, interaction models, and system architectures reflect my personal strategic direction and UX execution.
+        </div>
         </div>
 
         {/* The Context & Moment of Conflict */}
