@@ -236,12 +236,12 @@ export default function NewsMedia() {
 
         {/* Bottom Navigation */}
         <div className="max-w-5xl mx-auto w-full flex justify-between items-center py-12 border-t border-gray-100 mt-16">
-          <button 
-            onClick={() => window.location.href = "/"} 
-            className="text-sm font-bold text-gray-950 hover:text-gray-600 transition-colors flex items-center gap-2 cursor-pointer bg-transparent border-none p-0"
-          >
-            ← BACK TO CASE STUDIES
-          </button>
+          <Link 
+  to="/case-study/board-member" 
+  className="text-sm font-bold text-gray-950 hover:text-gray-600 transition-colors flex items-center gap-2"
+>
+  ← BACK TO CASE STUDY: BOARD MEMBER
+</Link>
           <Link to="/case-study/ai-pest-id" className="text-sm font-bold text-gray-950 hover:text-gray-600 transition-colors flex items-center gap-2">
             NEXT CASE STUDY: AI PEST ID →
           </Link>
