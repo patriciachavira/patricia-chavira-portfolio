@@ -6,35 +6,38 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>portfolio</title>
     
-    <!-- Translation Script -->
+    <!-- Google Translate Script -->
     <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
     
     <style>
-      /* Hide default Google Translate banner and logo */
+      /* Hide Google top banner and branding entirely */
       .goog-te-banner-frame.skiptranslate, 
       .goog-logo-link, 
       .goog-te-gadget span, 
-      #goog-gt-tt {
+      #goog-gt-tt,
+      .goog-te-spinner-pos {
         display: none !important;
       }
       body {
         top: 0px !important;
       }
 
-      /* Style floating container pill badge */
+      /* Custom floating container badge */
       #google_translate_element {
-        position: fixed;
-        bottom: 24px;
-        right: 24px;
-        z-index: 9999;
-        background: #ffffff;
-        border: 1px solid #e5e7eb;
-        border-radius: 9999px;
-        padding: 6px 16px;
-        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+        position: fixed !important;
+        bottom: 24px !important;
+        right: 24px !important;
+        z-index: 99999 !important;
+        background: #ffffff !important;
+        border: 1px solid #e5e7eb !important;
+        border-radius: 9999px !important;
+        padding: 6px 14px !important;
+        box-shadow: 0 4px 14px rgba(0, 0, 0, 0.1) !important;
+        display: flex !important;
+        align-items: center !important;
       }
 
-      /* Style selector typography */
+      /* Target dropdown directly */
       .goog-te-combo {
         font-family: inherit !important;
         font-size: 12px !important;
@@ -43,7 +46,9 @@
         background: transparent !important;
         border: none !important;
         outline: none !important;
-        cursor: pointer;
+        cursor: pointer !important;
+        margin: 0 !important;
+        padding: 0 !important;
       }
     </style>
   </head>
