@@ -24,7 +24,7 @@ export default function Home() {
         <div className="space-y-6">
           <h1 className="text-4xl sm:text-6xl font-extrabold tracking-tight text-gray-950">Patricia Chavira</h1>
           <p className="text-2xl font-bold text-gray-700">Product Designer & UX/UI Strategist</p>
-          <p className="text-lg text-gray-600 max-w-2xl leading-relaxed">Designing complex digital systems into clear, high-density user flows and scalable human-centered enterprise web apps.</p>
+          <p className="text-lg text-gray-600 max-w-2xl leading-relaxed">Transforming complex backend logic into clear, high-density user flows and scalable, human-centered enterprise applications.</p>
           <div className="flex gap-4 pt-4">
             <a href="#work" className="px-6 py-3 bg-blue-900 text-white text-sm font-semibold rounded-xl hover:bg-blue-800 transition-colors">
               EXPLORE WORK
